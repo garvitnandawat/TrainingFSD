@@ -1,0 +1,23 @@
+/* using tagName 3 */
+h1{
+    color: #9999;
+}
+
+/* using id 1 */
+#heading{
+    color: mediumaquamarine;
+    background-color: black;
+}
+
+/* using class 2 */
+.heading1{
+    color: black;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* id>>class>>tagName  */
+/* color :rgba(0,0,0,255,.2) controls the intensity of the color*/
+ul{
+    list-style-type :upper-alpha;
+}

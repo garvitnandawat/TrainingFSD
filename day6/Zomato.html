@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./zomato.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+
+
+        }
+        .box{
+            color: white;
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font: weight 1000px;
+            font-style: italic;
+            font-size: 60px;
+
+        }
+        h2{
+            font-size: 30px;
+        }
+        .search{
+            width: max-content;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>zomato</h1>
+        <h2>Discover the best food & drinks in Udaipur</h2>
+        <select name="city" id="city">
+            <option value="Udaipur">Udaipur</option>
+            <option value="lucknow">lucknow</option>
+            <option value="jaipur">jaipur</option>
+            <option value="jodhpur">jodhpur</option>
+          </select>
+          <input type="text" placeholder="🔍Search for  restaurant, cuisine or a dish" class="search">
+    </div>
+ </div>   
+</body>
+</html>

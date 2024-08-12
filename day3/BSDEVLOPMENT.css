@@ -1,0 +1,27 @@
+#BS{ 
+    padding-top: 150px ;
+    font-size: 120%;
+    font-stretch:extra-expanded ;
+}
+
+div{
+    height: 600px;
+    width: 750px;
+    background-color: rgba(105,225,154,255);
+    margin-top: 200px;
+    margin-left: 8%;
+    padding-left:80px ;
+    line-height: 5cap;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#button{
+    border: 0cap;
+    border-radius: 60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 80px;
+    width: 350px;
+}
+

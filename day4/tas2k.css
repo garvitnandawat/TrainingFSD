@@ -1,0 +1,27 @@
+
+.table{
+    background-color: black;
+    height:50px;
+}
+thead{
+    color: white;
+    display:inline-table;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+    
+
+
+}
+tbody :nth-child(even){
+    background-color: rgb(255, 255, 131);
+}
+tb
+#name{
+    margin-left: 800px;
+}
+#wins{
+    margin-left: 790px;
+}

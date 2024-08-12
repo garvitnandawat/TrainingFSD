@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Flodesk</title>
+    <style>
+        .content{
+            text-align: center;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .box2{
+            border: solid gray;
+            height: fit-content;
+            width:fit-content ;
+            padding: 0px 35px 30px 35px;
+            backdrop-filter: blur(7px);
+        }
+        #em{
+            width: 240px;
+            height: 50px;
+            margin-bottom: 20px ;
+            padding-left:30px;
+            border: 1px solid grey ;
+            border-radius: 8px;
+        }
+        #ps{
+            width: 240px;
+            height: 50px;
+            margin-bottom: 20px ;
+            padding-left:30px ;
+            border: 1px solid grey ;
+            border-radius: 8px;
+        }
+        
+        #login{
+            height: 45px;
+            width: 160px;
+            color: white; 
+            background-color: black;
+            border-radius: 18px; 
+            margin-bottom: 20px;     
+        }
+        .box{
+            color: darkgray;
+        }
+        #sign{
+            color:gray;
+        }
+        body{
+            background-image:url(./WhatsApp\ Image\ 2024-08-10\ at\ 09.34.42_853827c3.jpg) ;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="box2">
+        <h1 style="font-size: 60px;">Flodesk</h1>
+        <h4>Welcome back!</h4>
+        <form>
+        <input type="email" placeholder="Enter your email" id="em"><br>
+        <input type="password" placeholder="Enter your password" id="ps"><br>
+        <button id="login">Login to Flodesk</button>
+        <div class="box">
+        <p>Not a member ? <a href="" id="sign">sign up</a></p>
+        <a href="" id="sign">Forgot your password</a>
+        <p>By continuing, you agree to Flodesk's <a href="" id="sign">term</a></p>
+        <p>and acknowledge you've read our <a href="" id="sign">privacy policy</a></p>
+        </div>
+        </div>
+    </form>
+    </div>
+
+</body>
+</html>
