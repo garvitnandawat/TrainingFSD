@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 200px;
+        background-color: black;
+        padding: 5px;
+        display: grid;
+        /* grid-template-columns:200px 200px 200px ; */
+        /* grid-template-columns: 1fr 1fr 2fr; */
+        /* grid-template-columns: repeat(3, minmax(100px, 300px))minmax(50px,100px); */
+        /* grid grid-template-rows: 100px 100px 100px; */
+        /* grid-template-rows: 1fr 1fr 2fr; */
+        /* grid-template-rows: repeat(3, 1fr); */
+        /* grid-template-rows: repeat(3, minmax(100px, 300px))minmax(50px,100px); */
+        gap: 5px;
+        grid-template-areas: 'box1 box2 box3 box4 box5 box6 box7 box8 box9 box10 box11 box12';
+        .item1{
+          grid-area: box1;
+        }
+        .item2{
+          grid-area: box2;
+        }
+        .item3{
+          grid-area: box3;
+        }
+        .item4{
+          grid-area: box4;
+        }
+        .item5{
+          grid-area: box5;
+        }
+        .item6{
+          grid-area: box6;
+        }
+        .item7{
+          grid-area: box7;
+        }
+        .item8{
+          grid-area: box8;
+        }
+        .item9{
+            grid-area: box9;
+        }
+        .item10{
+            grid-area: box10;
+        }
+        .item11{
+            grid-area: box11;
+        }
+        .item12{
+            grid-area: box12;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+      <div class="container">
+        <div class=" item1" style="background-color: red">item1</div>
+        <div class=" item2" style="background-color: red">item2</div>
+        <div class=" item3" style="background-color: red">item3</div>
+        <div class=" item4" style="background-color: red">item4</div>
+        <div class=" item5" style="background-color: red">
+          item5
+        </div>
+        <div class=" item6" style="background-color: red">
+          item6
+        </div>
+        <div class="item7" style="background-color: red">
+          item7
+        </div>
+        <div class="item8" style="background-color: red">
+          item8
+        </div>
+        <div class="item9" style="background-color: red">
+          item9
+        </div>
+        <div class="item10" style="background-color: red">
+        item10
+        </div>
+          <div class=" item11" style="background-color: red">
+            item11
+          </div>
+          <div class=" item12" style="background-color:red ">
+            item12
+          </div>
+      </div>
+    </body>
+  </body>
+</html>
