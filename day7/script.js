@@ -141,3 +141,42 @@ console.log(typeof String(num))
 
 const str='true';
 console.log(typeof Boolean(str))
+
+//note template string 
+const firstnAme = 'abc';
+const lastnAme = 'xyz';
+
+// const fullDetails = 'my' + ' ' + 'name' + ' ' + 'is' + firstnAme ;
+
+// ternary operator 
+// condition ? if true this will run : not true then this will run 
+const O = age > 18 ? 'you are a major' : 'you are a minor' 
+console.log(O) ;
+
+
+//TODO------- types of Functions---------------
+
+//function declaration 
+
+mydetails('ghj' , 'jvk');
+function mydetails(fnAme , lAme){
+console.log('My name is ${fnAme} ${lAme}')
+}
+//function expression ;
+sum(4,5);
+const sum = function(x,z){
+    return x + z ;
+}
+// arrow Function ;
+
+//note single line arrow function 
+const subs =(a,b) => b-a ;
+
+//note multi line arrow function 
+
+const mutliply = (a,b) => {
+    return a*b ;
+}
+
+
+
