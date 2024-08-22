@@ -17,4 +17,3 @@ function checkage() {
 const slicedOutput = arr.slice(1,5);
 console.log(slicedOutput);
 console.log(arr);
-                                                                                                                                                                                                           
