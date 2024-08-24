@@ -1,0 +1,1 @@
+let jobType = prompt ("Business / Government / Private")
