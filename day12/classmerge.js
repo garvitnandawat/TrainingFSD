@@ -212,11 +212,50 @@
 
 // const lion = object.create(animal)
 
-const arr = [1,2,3,4] ;
-console.log(arr);
+// const arr = [1,2,3,4] ;
+// console.log(arr);
 
-const arr2 = new Array() ;
-//console.log(arr2)
+// const arr2 = new Array() ;
+// //console.log(arr2)
 
-//note directly saving method on 
-    
+// //note directly saving method on 
+
+// const coffeemachine{
+//     #wateramount = 100 
+//     #getwater(){
+//         console.log('coffee machine have ${this.#wateramount}');
+//     }
+// }
+
+// note scope in JS
+
+//global
+// const product = 'tv' ;
+// let firstName = 'Garvit';
+// var lastName = 'abc' ;
+
+
+
+//block
+// if(true){
+
+//     const product = 'tv' ;
+// let firstName = 'Garvit';
+// var lastName = 'abc' ;
+// }
+
+
+
+//function
+
+// function print() {
+//     const product = 'tv' ;
+// let firstName = 'Garvit';
+// var lastName = 'abc' ;
+// }
+
+// print()
+
+// console.log(product);
+// console.log(firstName);
+// console.log(lastName);
