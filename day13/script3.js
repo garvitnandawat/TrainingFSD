@@ -86,13 +86,21 @@
 //     console.log('it will run always either your promise fulfilled or rejected')
 // });
 
-//calling APIs using fetch()
+//calling an apis using fetch() function
+//NOTE fetch function always returns promise
 
-
-$.ajax({
-    url: 'https://randomuser.me/api/',
-    dataType: 'json',
-    success: function(data) {
-      console.log(data);
-    }
-  });
+fetch('https://restcountries.com/v3.1/all').then((res)=>{
+  return res.json()
+}).then((data)=>{
+  
+   data.forEach(element => {
+       console.log(element)
+       const h1 = document.createElement('h1')
+       const img = document.createElement("img");
+       img.style.width = '200px'
+       img.src = element.flags.svg
+       h1.innerText = element.name.common;
+       document.body.appendChild(h1)
+       document.body.appendChild(img)
+    });
+})
