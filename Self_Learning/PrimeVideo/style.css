@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+.logo-min-remaster{
+    width: 96px;
+    padding: 25px 30px 6px 70px;
+}
+
+
+.header{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    
+}
+
+.nav{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    font-size: 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 900;
+}
+
+#livetv{
+    border-right: 2px solid hsla(0, 0%, 100%, .4);
+    height: 5px;
+}
