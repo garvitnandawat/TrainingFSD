@@ -29,3 +29,7 @@
     border-right: 2px solid hsla(0, 0%, 100%, .4);
     height: 5px;
 }
+
+.search{
+    padding: 25px 30px 6px 70px
+}
